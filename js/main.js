@@ -9,10 +9,10 @@ const socials = {
 
 const madeWithLoveMessages = [
     "Made in your walls using my bare hands",
-    "Designed in California USA, made in China, in my brain (Florida USA)",
+    "Designed in California, made in China, in my brain (Florida, USA)",
     "Hope you didn't forget I am in your walls, where I made this website",
     "Inspired by the great Florida weather",
-    "This is what an AI would create if prompted \"finest website this week\""
+    "This is what an AI would create if prompted \"finest website this side of heaven\""
 ]
 
 document.addEventListener("DOMContentLoaded", onLoad)
@@ -45,9 +45,7 @@ function randomElement(array) {
 }
 
 function toggleTheme() {
-
 }
 
 function exit() {
-
 }

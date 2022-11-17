@@ -61,10 +61,6 @@ nav #logo span {
 }
 
 /* Main */
-main {
-    /*background-color: #fff;*/
-    /*color: #000;*/
-}
 
 /* Footer */
 footer {
@@ -74,7 +70,7 @@ footer {
     user-select: none;
     padding: 5em 0;
     opacity: 75%;
-    transition: opacity 250ms;
+    transition: all 250ms;
 }
 footer:hover {
     opacity: 100%;

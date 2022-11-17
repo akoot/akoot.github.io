@@ -1,0 +1,18 @@
+main {
+    background-image: url("https://cldup.com/gn3s3Fg75t.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding: 8em;
+    opacity: 80%;
+}
+main:hover {
+    opacity: 100%;
+}
+h1 {
+    font-size: 5em;
+    font-family: "Montserrat ExtraLight", sans-serif;
+}
+h3 {
+    font-style: italic;
+}
