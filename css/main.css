@@ -1,43 +1,29 @@
 /* Defaults */
 :root {
-    background-color: #000;
-    color: #fff;
+
+    /* Variables */
+    --bg: #000;
+    --fg: #fff;
+
+    /* Properties */
+    background-color: var(--bg);
+    color: var(--fg);
     font-family: "Open Sans", sans-serif;
 }
 ::selection {
-    color: #000;
-    background: #fff;
+    color: var(--bg);
+    background: var(--fg);
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: var(--fg);
 }
 
 /* Nav */
 nav {
     display: inline;
     user-select: none;
-    background-color: #000;
-}
-nav #navbar {
-    list-style-type: none;
-    float: right;
-    margin-right: 4em;
-    margin-top: 1.5em;
-}
-nav #navbar li {
-    display: inline;
-}
-nav #navbar .selected, nav a:hover {
-    background-color: #fff;
-    color: #000;
-}
-nav #navbar a {
-    padding: 8px 20px;
-    border-radius: 2em;
-    display: inline-block;
-    transition: all 100ms;
-    margin: 0 4px;
+    background-color: var(--bg);
 }
 nav #logo {
     font-family: "Montserrat Light", sans-serif;
@@ -58,6 +44,43 @@ nav #logo img {
 }
 nav #logo span {
     margin-left: .25em;
+}
+nav #navbar {
+    list-style-type: none;
+    float: right;
+    margin-right: 2em;
+    margin-top: 1.5em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+nav #navbar li {
+    display: inline;
+}
+nav #navbar .selected, nav a:hover {
+    background-color: var(--fg);
+    color: var(--bg);
+}
+nav #navbar a {
+    padding: 8px 20px;
+    border-radius: 2em;
+    display: inline-block;
+    transition: all 100ms;
+    margin: 0 4px;
+}
+nav #themeToggle {
+    display: inline-block;
+    background-repeat: no-repeat;
+    min-height: 24px;
+    min-width: 24px;
+    filter: invert();
+    border: none;
+    background-color: rgba(0,0,0,0);
+    transition: opacity 250ms;
+    margin-left: 1em;
+}
+nav #themeToggle:hover {
+    opacity: 50%;
 }
 
 /* Main */
@@ -87,12 +110,12 @@ footer #socials li {
     margin: 0 1em;
     background-color: rgba(0,0,0,0);
     border-radius: 4em;
-    border: solid #fff 2px;
+    border: solid var(--fg) 2px;
     transition: all 250ms;
     opacity: 80%;
 }
 footer #socials li:hover {
-    background-color: #fff;
+    background-color: var(--fg);
     opacity: 100%;
 }
 footer #socials li:hover .social-icon {
