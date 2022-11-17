@@ -4,6 +4,7 @@
     /* Variables */
     --bg: #000;
     --fg: #fff;
+    --transparent: rgba(0,0,0,0);
 
     /* Properties */
     background-color: var(--bg);
@@ -21,24 +22,24 @@ a {
 
 /* Nav */
 nav {
-    display: inline;
+    /*display: inline;*/
     user-select: none;
     background-color: var(--bg);
 }
 nav #logo {
     font-family: "Montserrat Light", sans-serif;
     font-size: 24pt;
-    transition: opacity 200ms;
+    /*transition: opacity 200ms;*/
     display: inline-flex;
     justify-content: center;
     align-items: center;
     margin-left: .25em;
     margin-top: .25em;
 }
-nav #logo:hover {
-    opacity: 50%;
-    cursor: pointer;
-}
+/*nav #logo:hover {*/
+/*    opacity: 50%;*/
+/*    cursor: pointer;*/
+/*}*/
 nav #logo img {
     /*background-color: #00ff00;*/
 }
@@ -62,11 +63,11 @@ nav #navbar .selected, nav a:hover {
     color: var(--bg);
 }
 nav #navbar a {
-    padding: 8px 20px;
+    padding: 0.5em 1em;
     border-radius: 2em;
     display: inline-block;
     transition: all 100ms;
-    margin: 0 4px;
+    margin: 0 0.5em;
 }
 nav #themeToggle {
     display: inline-block;
@@ -75,7 +76,7 @@ nav #themeToggle {
     min-width: 24px;
     filter: invert();
     border: none;
-    background-color: rgba(0,0,0,0);
+    background-color: var(--transparent);
     transition: opacity 250ms;
     margin-left: 1em;
 }
@@ -102,13 +103,12 @@ footer #socials {
     list-style-type: none;
     padding: 1em;
     display: inline-block;
-    /*border-radius: 4em;*/
 }
 footer #socials li {
     display: inline-block;
     padding: 1em;
     margin: 0 1em;
-    background-color: rgba(0,0,0,0);
+    background-color:  var(--transparent);
     border-radius: 4em;
     border: solid var(--fg) 2px;
     transition: all 250ms;
@@ -132,7 +132,7 @@ footer #copyright {
     display: block;
     font-weight: lighter;
 }
-footer div {
+footer {
     display: block;
     text-align: center;
 }

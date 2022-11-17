@@ -1,4 +1,90 @@
 :root {
-    --bg: #ff0000;
-    --fg: #00ffff;
+    --bg: #fff;
+    --fg: #006747;
+    --fg2: #9bd935;
+
+    font-family: "Roboto", sans-serif;
+}
+nav {
+    background: linear-gradient(90deg, var(--fg), var(--fg2));
+    color: var(--bg);
+    padding: .5em 0;
+    text-align: right;
+}
+nav #logo img {
+    margin-right: 0.15em;
+    opacity: 0;
+    transition: opacity 250ms;
+}
+nav #logo img:hover {
+    opacity: 50%;
+}
+nav #logo span {
+    display: none;
+}
+nav #navbar a {
+    color: var(--bg);
+    font-size: 16pt;
+    background-color: var(--transparent);
+    margin: 0 .5em;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 0;
+}
+nav a:hover, nav #navbar .selected {
+    background-color: var(--transparent);
+}
+nav #navbar {
+    float: left;
+}
+nav a:after {
+    content: ' ';
+    display: block;
+    border: 1px solid var(--transparent);
+    transition: all 250ms;
+}
+nav #navbar .selected:after, nav a:hover:after {
+    border-color: var(--bg);
+}
+nav #themeToggle {
+    display: none;
+}
+footer {
+    background-color: var(--fg);
+    color: var(--bg);
+    opacity: 100%;
+}
+footer #socials {
+    display: inline-block;
+    margin-bottom: 0;
+}
+footer #socials li {
+    border: none;
+    margin: 0;
+    padding: 0.5em;
+}
+footer #socials li:hover {
+    background: none;
+    opacity: 100%;
+}
+footer #socials .social-icon {
+    margin: 0;
+}
+footer #socials li:hover .social-icon {
+    filter: invert();
+}
+footer {
+    text-align: left;
+    padding-left: 10em;
+}
+footer #copyright {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    padding-left: 1em;
+    margin-top: 0;
+}
+footer #madeWithLoveOrSomething {
+    font-size: 11pt;
+    font-style: italic;
+    opacity: 50%;
+    padding-left: 1em;
 }
