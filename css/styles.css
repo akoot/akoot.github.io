@@ -1,0 +1,119 @@
+:root {
+    background-color: #000;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+::selection {
+    color: #000;
+    background: #fff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Nav */
+nav {
+    display: inline;
+    user-select: none;
+    background-color: #000;
+}
+nav #navbar {
+    list-style-type: none;
+    float: right;
+    margin-right: 4em;
+    margin-top: 1.5em;
+}
+nav #navbar li {
+    display: inline;
+}
+nav #navbar .selected, nav a:hover {
+    background-color: #fff;
+    color: #000;
+}
+nav #navbar a {
+    padding: 8px 20px;
+    border-radius: 2em;
+    display: inline-block;
+    transition: all 100ms;
+    margin: 0 4px;
+}
+nav #logo {
+    display: inline;
+    font-family: "Montserrat Light", sans-serif;
+    font-size: 24pt;
+    transition: opacity 200ms;
+    margin-left: .25em;
+    padding-top: 1em;
+    background-color: #0000ff;
+}
+nav #logo:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+nav #logo img {
+    margin-top: .5em;
+    background-color: #00ff00;
+}
+nav #logo span {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #ff0000;
+}
+
+/* Main */
+main {
+    /*background-color: #fff;*/
+    /*color: #000;*/
+}
+
+/* Footer */
+footer {
+    /*position: absolute;*/
+    width: 100%;
+    bottom: 0;
+    user-select: none;
+    padding: 5em 0;
+    opacity: 75%;
+    transition: opacity 250ms;
+}
+footer:hover {
+    opacity: 100%;
+}
+footer #socials {
+    list-style-type: none;
+    padding: 3em;
+    display: inline-block;
+    /*border-radius: 4em;*/
+}
+footer #socials li {
+    display: inline-block;
+    padding: 1em;
+    margin: 0 1em;
+    background-color: rgba(0,0,0,0);
+    border-radius: 4em;
+    border: solid #fff 2px;
+    transition: all 250ms;
+    opacity: 80%;
+}
+footer #socials li:hover {
+    background-color: #fff;
+    opacity: 100%;
+}
+footer #socials li:hover .social-icon {
+    filter: none;
+}
+footer .social-icon {
+    display: block;
+    background-repeat: no-repeat;
+    min-height: 32px;
+    min-width: 32px;
+    filter: invert();
+}
+footer #copyright {
+    display: block;
+}
+footer div {
+    display: block;
+    text-align: center;
+}
