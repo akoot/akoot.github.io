@@ -1,3 +1,4 @@
+/* Defaults */
 :root {
     background-color: #000;
     color: #fff;
@@ -46,6 +47,7 @@ nav #logo {
     justify-content: center;
     align-items: center;
     margin-left: .25em;
+    margin-top: .25em;
 }
 nav #logo:hover {
     opacity: 50%;
@@ -55,7 +57,6 @@ nav #logo img {
     /*background-color: #00ff00;*/
 }
 nav #logo span {
-    /*background-color: #ff0000;*/
     margin-left: .25em;
 }
 
@@ -80,7 +81,7 @@ footer:hover {
 }
 footer #socials {
     list-style-type: none;
-    padding: 2em;
+    padding: 1em;
     display: inline-block;
     /*border-radius: 4em;*/
 }
@@ -115,4 +116,8 @@ footer #copyright {
 footer div {
     display: block;
     text-align: center;
+}
+footer #madeWithLoveOrSomething {
+    font-size: 8pt;
+    /*font-style: italic;*/
 }
