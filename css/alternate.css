@@ -105,12 +105,45 @@ td:nth-child(2) {
 progress::-webkit-progress-bar, progress::-moz-progress-bar {
     background: linear-gradient(-90deg, #6fc95b, #1b8f4a);
 }
+hr {
+    border: none;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+}
 /* About */
+main {
+    text-align: center;
+}
+#bio {
+    text-align: center;
+    /*padding: 1em 2em;*/
+    /*background-color: #e7e7e7;*/
+}
 #bio .profile {
-    border-radius: 0;
+    border-radius: 50%;
+    display: inline-block;
+    border: solid 4px var(--fg);
+}
+#bio h1 {
+    background-color: var(--transparent);
+    color: var(--fg);
+    margin: 0;
+}
+#bio .alt {
+    /*background-color: rgba(0, 0, 0, 0.15);*/
+}
+#bio p {
+    margin: 0;
+    color: #797979;
 }
 #programming {
     background-image: url("../assets/gallery/0045.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#programming section {
+    border-radius: 10px;
+    /*background-color: var(--transparent);*/
+    /*color: #000;*/
 }
 #programming table {
     opacity: 100%;
