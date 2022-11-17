@@ -39,26 +39,24 @@ nav #navbar a {
     margin: 0 4px;
 }
 nav #logo {
-    display: inline;
     font-family: "Montserrat Light", sans-serif;
     font-size: 24pt;
     transition: opacity 200ms;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     margin-left: .25em;
-    padding-top: 1em;
-    background-color: #0000ff;
 }
 nav #logo:hover {
     opacity: 50%;
     cursor: pointer;
 }
 nav #logo img {
-    margin-top: .5em;
-    background-color: #00ff00;
+    /*background-color: #00ff00;*/
 }
 nav #logo span {
-    display: inline-block;
-    vertical-align: middle;
-    background-color: #ff0000;
+    /*background-color: #ff0000;*/
+    margin-left: .25em;
 }
 
 /* Main */
@@ -82,7 +80,7 @@ footer:hover {
 }
 footer #socials {
     list-style-type: none;
-    padding: 3em;
+    padding: 2em;
     display: inline-block;
     /*border-radius: 4em;*/
 }
@@ -112,6 +110,7 @@ footer .social-icon {
 }
 footer #copyright {
     display: block;
+    font-weight: lighter;
 }
 footer div {
     display: block;
