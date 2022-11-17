@@ -2,9 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/alternate.css" id="altTheme">
+    <link rel="stylesheet" href="css/light.css" id="lightTheme">
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/svg">
+    <script src="js/main.js"></script>
+    <title>About - Akoot_</title>
 </head>
 <body>
-
+<nav>
+    <span id="logo"><img src="assets/images/logo.svg" alt="Logo" height="64px" width="64px"><span>Akoot_</span></span>
+    <ul id="navbar">
+        <li><a href="index.html" class="">Home</a></li>
+        <li><a href="about.html" class="selected">About</a></li>
+        <li><a href="projects.html" class="">Projects</a></li>
+        <li><a href="contact.html" class="">Contact</a></li>
+        <li><button id="themeToggle"></button></li>
+    </ul>
+</nav>
+<main>
+    <section id="bio">
+        <img src="assets/images/profile/0.jpg" alt="" class="profile">
+        <br>
+        <h1><i>"Who is this guy?" &mdash; You</i></h1>
+    </section>
+    <section id="programming">
+        <h1>Programming Languages</h1>
+        <table>
+            <thead>
+            <tr>
+                <td>Language</td><td>Year Started</td><td>Confidence Level</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Java</td><td>2012</td><td><progress value="100" max="100">100%</progress></td>
+            </tr>
+            <tr>
+                <td>Kotlin</td><td>2022</td><td><progress value="89" max="100">89%</progress></td>
+            </tr>
+            <tr>
+                <td>Python</td><td>2016</td><td><progress value="80" max="100">80%</progress></td>
+            </tr>
+            <tr>
+                <td>C#</td><td>2016</td><td><progress value="75" max="100">75%</progress></td>
+            </tr>
+            <tr>
+                <td>HTML, JavaScript, CSS</td><td>2012</td><td><progress value="50" max="100">50%</progress></td>
+            </tr>
+            <tr>
+                <td>Scala</td><td>2020</td><td><progress value="50" max="100">50%</progress></td>
+            </tr>
+            <tr>
+                <td>C</td><td>2019</td><td><progress value="40" max="100">40%</progress></td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="misc">
+        <h1>What else...</h1>
+        <p>I use Arch btw</p>
+    </section>
+</main>
+<footer>
+    <ul id="socials">
+        <li><a href="#" class="social-icon" id="twitter" title="Twitter"></a></li>
+        <li><a href="#" class="social-icon" id="soundcloud" title="SoundCloud"></a></li>
+        <li><a href="#" class="social-icon" id="github" title="GitHub"></a></li>
+        <li><a href="#" class="social-icon" id="youtube" title="YouTube"></a></li>
+        <li><a href="#" class="social-icon" id="email" title="Email"></a></li>
+    </ul>
+    <p id="copyright">Copyright &copy; <span class="year"></span> no stealing</p>
+    <p id="madeWithLoveOrSomething">Made in China</p>
+</footer>
+<!-- Imagine putting a script tag at the end of the body couldn't be me -->
 </body>
 </html>

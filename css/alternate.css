@@ -2,11 +2,12 @@
     --bg: #fff;
     --fg: #006747;
     --fg2: #9bd935;
+    --fg3: #005049;
 
     font-family: "Roboto", sans-serif;
 }
 nav {
-    background: linear-gradient(90deg, var(--fg), var(--fg2));
+    background: linear-gradient(60deg, var(--fg), var(--fg2));
     color: var(--bg);
     padding: .5em 0;
     text-align: right;
@@ -15,6 +16,7 @@ nav #logo img {
     margin-right: 0.15em;
     opacity: 0;
     transition: opacity 250ms;
+    filter: invert();
 }
 nav #logo img:hover {
     opacity: 50%;
@@ -49,7 +51,7 @@ nav #themeToggle {
     display: none;
 }
 footer {
-    background-color: var(--fg);
+    background: linear-gradient(60deg, var(--fg), var(--fg3));
     color: var(--bg);
     opacity: 100%;
 }

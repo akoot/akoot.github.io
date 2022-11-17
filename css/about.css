@@ -1,0 +1,44 @@
+#bio, #programming, #misc {
+    /*background-color: var(--fg);*/
+    /*color: var(--bg);*/
+    text-align: center;
+    padding: 5em;
+}
+#bio .profile {
+    border-radius: 50%;
+    max-height: 256px;
+    max-width: 256px;
+    /*border: solid var(--fg) 2px;*/
+}
+#bio h1 {
+    background-color: var(--fg);
+    color: var(--bg);
+    /*background-color: var(--bg);*/
+    /*color: var(--fg);*/
+    display: inline-block;
+    padding: 0.25em 0.5em;
+}
+#programming table {
+    display: inline-block;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+}
+#programming td {
+    padding: 0.5em 1em;
+    font-size: x-large;
+}
+#programming td:first-child {
+    font-weight: bolder;
+}
+#programming td:nth-child(2) {
+    font-family: "Montserrat Light", sans-serif;
+    font-style: italic;
+}
+progress[value] {
+    appearance: none;
+    height: 1em;
+    border: none;
+}
+progress::-webkit-progress-bar, progress::-moz-progress-bar {
+    background: linear-gradient(90deg, #57d6f3, #74dcd3);
+}
