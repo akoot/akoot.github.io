@@ -90,3 +90,30 @@ footer #madeWithLoveOrSomething {
     opacity: 50%;
     padding-left: 1em;
 }
+main {
+    font-family: "Roboto", sans-serif;
+}
+table {
+    display: inline-block;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+}
+td:nth-child(2) {
+    font-family: "Roboto Light", sans-serif;
+    font-style: italic;
+}
+progress::-webkit-progress-bar, progress::-moz-progress-bar {
+    background: linear-gradient(-90deg, #6fc95b, #1b8f4a);
+}
+/* About */
+#bio .profile {
+    border-radius: 0;
+}
+#programming {
+    background-image: url("../assets/gallery/0045.jpg");
+}
+#programming table {
+    opacity: 100%;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}

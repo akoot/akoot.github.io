@@ -1,11 +1,15 @@
 #bio, #programming, #misc {
     /*background-color: var(--fg);*/
     /*color: var(--bg);*/
-    text-align: center;
-    padding: 5em;
+    padding: 5em 10em;
+}
+#bio {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 #bio .profile {
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     max-height: 256px;
     max-width: 256px;
     /*border: solid var(--fg) 2px;*/
@@ -17,28 +21,33 @@
     /*color: var(--fg);*/
     display: inline-block;
     padding: 0.25em 0.5em;
+    margin: 1em;
+
+}
+#programming {
+    text-align: right;
+    background-image: url("../assets/gallery/0059.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#programming section {
+    float: left;
+}
+#programming section p {
+    text-align: center;
+    background-color: var(--fg);
+    color: var(--bg);
+    padding: .5em 1em;
+}
+#programming section .alt {
+    background-color: var(--bg);
+    color: var(--fg);
 }
 #programming table {
-    display: inline-block;
-    text-align: left;
-    font-family: "Montserrat", sans-serif;
+    background-color: var(--bg);
+    opacity: 80%;
+    padding: 2em;
 }
-#programming td {
-    padding: 0.5em 1em;
-    font-size: x-large;
-}
-#programming td:first-child {
-    font-weight: bolder;
-}
-#programming td:nth-child(2) {
-    font-family: "Montserrat Light", sans-serif;
-    font-style: italic;
-}
-progress[value] {
-    appearance: none;
-    height: 1em;
-    border: none;
-}
-progress::-webkit-progress-bar, progress::-moz-progress-bar {
-    background: linear-gradient(90deg, #57d6f3, #74dcd3);
+#misc {
+    text-align: justify;
 }

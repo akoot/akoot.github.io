@@ -19,6 +19,33 @@ a {
     text-decoration: none;
     color: var(--fg);
 }
+table {
+    display: inline-block;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+}
+td {
+    padding: 0.5em 1em;
+    font-size: x-large;
+}
+td:first-child {
+    font-weight: bolder;
+}
+td:nth-child(2) {
+    font-family: "Montserrat Light", sans-serif;
+    font-style: italic;
+}
+table caption {
+    font-size: xx-large;
+}
+progress[value] {
+    appearance: none;
+    height: 1em;
+    border: none;
+}
+progress::-webkit-progress-bar, progress::-moz-progress-bar {
+    background: linear-gradient(90deg, #57d6f3, #74dcd3);
+}
 
 /* Nav */
 nav {
