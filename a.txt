@@ -1,3 +1,4 @@
+# Projects
 UltraVanilla
 A community-centered semi-vanilla Minecraft server founded in 2019 with custom plugins. Ownership was transferred in early 2022 and it's still ongoing.
 
@@ -10,5 +11,15 @@ Personal cloud storage front-end for my friends and I. This may turn into someth
 AKUI
 User interface design to be used on future projects. Dark and light edition.
 
-Kaido
-Create templates, organize and manage music projects for FL Studio and Ableton.
+AkootCoin
+Faux cryptocurrency for fun! These are technically IOUs but they are fun to use! New design in the works...
+
+# Contact
+Email
+The best way to contact me as a complete stranger is email! I will check it and that's a promise.
+
+Hate Mail
+If you hate me straight up, have something against me, wish me dead, want to say nasty things to me directly, you can always send me some hate mail!
+
+Discord
+If you are a zoomer you probably already have Discord and use it regularly. My current tag is Akoot_#9000, you can add me or just join my public server.

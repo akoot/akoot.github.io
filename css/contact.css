@@ -1,0 +1,17 @@
+main {
+    text-align: center;
+}
+article {
+    /*padding: 2em;*/
+}
+#contact section {
+    display: inline-block;
+    margin: 1em;
+    background-color: var(--fg);
+    color: var(--bg);
+    text-align: justify;
+    padding: 2em;
+}
+#contact a {
+    color: var(--accent);
+}

@@ -1,0 +1,32 @@
+section img {
+    width: 100%;
+    display: block;
+}
+.project-icon, #akootCoin img {
+    max-height: 200px;
+    max-width: 200px;
+    display: inline-block;
+}
+.project-icon {
+}
+.light {
+    display: none;
+}
+section {
+    display: block;
+}
+main {
+    padding-left: 10em;
+    padding-right: 10em;
+}
+section {
+    padding: 2em 0;
+}
+section .project {
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+}
+section .project p {
+    display: inline-block;
+}

@@ -1,6 +1,7 @@
 :root {
     --bg: #ffffff;
     --fg: #000000;
+    --accent: #41b2d5
 }
 nav #logo img {
     filter: invert();
@@ -16,4 +17,10 @@ footer {
 }
 nav #themeToggle {
     filter: none;
+}
+.light {
+    display: revert;
+}
+.dark {
+    display: none;
 }

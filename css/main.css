@@ -5,6 +5,7 @@
     --bg: #000;
     --fg: #fff;
     --transparent: rgba(0,0,0,0);
+    --accent: #996bd2;
 
     /* Properties */
     background-color: var(--bg);
