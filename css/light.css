@@ -24,3 +24,6 @@ nav #themeToggle {
 .dark {
     display: none;
 }
+#akui {
+    background-image: url("../assets/gallery/akui_light.png");
+}

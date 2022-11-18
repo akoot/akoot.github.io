@@ -1,32 +1,52 @@
-section img {
-    width: 100%;
-    display: block;
-}
 .project-icon, #akootCoin img {
     max-height: 200px;
     max-width: 200px;
-    display: inline-block;
-}
-.project-icon {
 }
 .light {
     display: none;
 }
 section {
-    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5em;
+    margin: 0;
 }
-main {
-    padding-left: 10em;
-    padding-right: 10em;
-}
-section {
-    padding: 2em 0;
-}
-section .project {
-    display: inline-flex;
-    align-items: center;
-    align-content: center;
-}
-section .project p {
+section h1 {
+    background-color: var(--fg);
+    color: var(--bg);
+    padding: .25em .5em;
     display: inline-block;
+    margin: .5em 0;
+    font-size: 28pt;
+}
+section p {
+    background-color: var(--bg);
+    color: var(--fg);
+    display: inline-block;
+    padding: .25em .5em;
+    margin: .25em 1em;
+    font-size: 16pt;
+}
+section .alt {
+    margin: .25em 3em;
+}
+#ultraVanilla {
+    background-image: url("../assets/gallery/uv.png");
+}
+#cloud {
+    background-image: url("../assets/gallery/cloud.akoot.me.png");
+    text-align: right;
+}
+#akui {
+    background-image: url("../assets/gallery/akui_dark.png");
+}
+#akootCoin {
+    background-image: url("../assets/gallery/akc.png");
+}
+#untitledServer {
+    background-image: url("../assets/images/pattern2.svg");
+    background-size: auto;
+    text-align: right;
+
 }
