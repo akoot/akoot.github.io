@@ -61,3 +61,14 @@
 #misc {
     text-align: center;
 }
+#misc ul {
+    list-style: none;
+    /*background-color: var(--fg);*/
+    display: inline-block;
+    margin: 0;
+    padding: .5em 1em;
+}
+#misc li {
+    display: inline-block;
+    margin: 0 .5em;
+}
