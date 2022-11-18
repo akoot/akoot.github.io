@@ -202,3 +202,15 @@ footer #madeWithLoveOrSomething {
     font-size: 8pt;
     /*font-style: italic;*/
 }
+#landing {
+    padding: 12em;
+    text-align: center;
+    /*background-image: url("../assets/gallery/landing.gif");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    transition: opacity 250ms;
+}
+#landing:hover {
+    opacity: 100%;
+}
