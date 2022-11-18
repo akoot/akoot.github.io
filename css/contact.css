@@ -16,3 +16,6 @@ article {
 #contact a {
     color: var(--accent);
 }
+#contact a:visited {
+    color: #cccccc;
+}

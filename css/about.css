@@ -72,3 +72,9 @@
     display: inline-block;
     margin: 0 .5em;
 }
+#misc a {
+    color: var(--accent);
+}
+#misc a:visited {
+    color: #cccccc;
+}
