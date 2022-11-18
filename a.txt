@@ -1,0 +1,14 @@
+UltraVanilla
+A community-centered semi-vanilla Minecraft server founded in 2019 with custom plugins. Ownership was transferred in early 2022 and it's still ongoing.
+
+Untitled Server
+Another community-centered semi-vanilla Minecraft server with custom plugins. This time, I want to give it more of my personal touch. This project is in closed beta and not available for the masses just yet! Currently my highest priority project.
+
+cloud.akoot.me
+Personal cloud storage front-end for my friends and I. This may turn into something more ambitious, revolutionary, even.
+
+AKUI
+User interface design to be used on future projects. Dark and light edition.
+
+Kaido
+Create templates, organize and manage music projects for FL Studio and Ableton.
