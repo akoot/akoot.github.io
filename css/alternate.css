@@ -150,3 +150,6 @@ main {
     border-radius: 10px;
     background-color: #f1f1f1;
 }
+#contact a {
+    color: #9bd935;
+}

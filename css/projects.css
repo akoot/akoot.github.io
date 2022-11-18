@@ -33,20 +33,21 @@ section .alt {
 }
 #ultraVanilla {
     background-image: url("../assets/gallery/uv.png");
+    text-align: left;
 }
 #cloud {
-    background-image: url("../assets/gallery/cloud.akoot.me.png");
+    /*background-image: url("../assets/gallery/cloud.akoot.me.png");*/
     text-align: right;
 }
 #akui {
-    background-image: url("../assets/gallery/akui_dark.png");
+    /*background-image: url("../assets/gallery/akui_dark.png");*/
+    text-align: left;
 }
 #akootCoin {
     background-image: url("../assets/gallery/akc.png");
+    text-align: left;
 }
 #untitledServer {
-    background-image: url("../assets/images/pattern2.svg");
-    background-size: auto;
     text-align: right;
 
 }
